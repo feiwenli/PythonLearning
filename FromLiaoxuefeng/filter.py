@@ -47,11 +47,12 @@ def re_next():
         it = filter(not_divisible(n), it)  # 构造新序列
 
 
+
 # 4、设置循环条件
 print('以下为素数')
 for n in re_next():
-    if n < 100:
-        print(n)
+    if n < 20:
+        print('n>',n)
     else:
         break
 
@@ -79,10 +80,10 @@ def round():
         it = filter(is_round(), it)
 
 
-print('以下为回数：')
-for n in round():
-    if n < 1000:
-        print(n)
-    else:
-        break
+# print('以下为回数：')
+# for n in round():
+#     if n < 20:
+#         print(n)
+#     else:
+#         break
 
