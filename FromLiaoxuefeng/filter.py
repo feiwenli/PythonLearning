@@ -80,10 +80,10 @@ def round():
         it = filter(is_round(), it)
 
 
-# print('以下为回数：')
-# for n in round():
-#     if n < 20:
-#         print(n)
-#     else:
-#         break
+print('以下为回数：')
+for n in round():
+    if n < 20:
+        print(n)
+    else:
+        break
 

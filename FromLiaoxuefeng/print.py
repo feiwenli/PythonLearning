@@ -1,17 +1,17 @@
 #!/user/bin/env python3
-#-*- coding: utf-8 -*-
-print('300+200=',300+200)
-#print('please enter your name:')
-#name = input()
-#print("hello,",name)
+# -*- coding: utf-8 -*-
+print('300+200=', 300 + 200)
+# print('please enter your name:')
+# name = input()
+# print("hello,",name)
 a = 100
-if a>= 0:
-	print(a)
+if a >= 0:
+    print(a)
 else:
-	print(-a)
+    print(-a)
 print('\\\\n\\\\')
- #r''表示''里面的字符不转义
-print(r'\\\\n\\\\') 
+# r''表示''里面的字符不转义
+print(r'\\\\n\\\\')
 print(r'''line1
 line2
 line3
@@ -20,10 +20,10 @@ print('''line1
 line2
 line3
 line4''')
-#a test
+# a test
 n = 123
 print(n)
-f =456.789
+f = 456.789
 print(f)
 s1 = 'Hello,world'
 print(s1)
